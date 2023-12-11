@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.h-screen{
+    height: 100vh;
+}
+
+.formTitle{
+        text-shadow: 2px 2px 1px rgb(234, 223, 223);
+        color: rgb(106, 106, 106);
+        font-family: "Latin Modern Roman";
+        font-size: 20pt;
+}
+
+.icon-container {
+    cursor: pointer;
+}
+
+.hidden-paragraph {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cv-container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.cv-header img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
